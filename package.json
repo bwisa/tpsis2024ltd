@@ -1,0 +1,42 @@
+{
+  "name": "tpsis2024ltd",
+  "version": "1.0.0",
+  "description": "tpsis2024ltd-THE PEOPLE SUPERVISION SECURITY ISOLATED 2024 LTD is a company offering security services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwisa/tpsis2024ltd.git"
+  },
+  "keywords": [
+    "THE",
+    "PEOPLE",
+    "SUPERVISION",
+    "SECURITY",
+    "ISOLATED",
+    "2024",
+    "LTD",
+    "is",
+    "a",
+    "company",
+    "offering",
+    "security",
+    "services"
+  ],
+  "author": "Mike Bwisa M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwisa/tpsis2024ltd/issues"
+  },
+  "homepage": "https://github.com/bwisa/tpsis2024ltd#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
