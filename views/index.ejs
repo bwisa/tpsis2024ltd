@@ -43,38 +43,7 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5">
-        <div class="row gx-4 d-none d-lg-flex">
-            <div class="col-lg-6 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <div class="btn-sm-square rounded-circle bg-primary me-2">
-                        <small class="fa fa-map-marker-alt text-white"></small>
-                    </div>
-                    <small>Gataka Road, Rongai</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
-                    <div class="btn-sm-square rounded-circle bg-primary me-2">
-                        <small class="fa fa-envelope-open text-white"></small>
-                    </div>
-                    <small><a href="mailto:info@tpsis2024.co.ke">info@tpsis2024.co.ke</a></small>
-                </div>
-            </div>
-            <div class="col-lg-6 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <div class="btn-sm-square rounded-circle bg-primary me-2">
-                        <small class="fa fa-phone-alt text-white"></small>
-                    </div>
-                    <small><a href="tel:+254712360213">+254 712360213</a> </small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
-                    <div class="btn-sm-square rounded-circle bg-primary me-2">
-                        <small class="far fa-clock text-white"></small>
-                    </div>
-                    <small>Mon - Fri : 24/7 Hours Support</small>
-                </div>
-            </div>
-        </div>
-    </div>
+    <%- include('../partials/topbar'); %>
     <!-- Topbar End -->
 
 
@@ -92,7 +61,6 @@
                 <a href="about" class="nav-item nav-link">About</a>
                 <a href="services" class="nav-item nav-link">Our Services</a>
                 <a href="projects" class="nav-item nav-link">Projects</a>
-                
                 <a href="contact" class="nav-item nav-link">Contact</a>
                 <a href="partners" class="nav-item nav-link">Partners</a>
 
@@ -470,7 +438,7 @@ and government security agencies as the most organized private security provider
     <!-- Testimonial End -->
 
     <!-- Copyright Start -->
-    <%- include('../public/partials/footer'); %>
+    <%- include('../partials/footer'); %>
 
     <!-- Copyright End -->
 
