@@ -43,6 +43,10 @@ app.get('/partners', function(req, res){
   res.render('partners')
 })
 
+app.get('/csr', function(req, res){
+  res.render('csr')
+})
+
 // run the server
 app.listen(port, () => {
   console.log('Tpsis2024Ltd Server is listening at port 4000')
